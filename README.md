@@ -35,6 +35,10 @@ The script will fetch the top daily wallpaper from the r/wallpaper subreddit on 
 ## Disclaimer
 
 This script uses web scraping to download images from Reddit. Make sure to respect Reddit's terms of use and the rules of the subreddits you are downloading images from.
+If a post has two or more images, the next post with only one image would be downloaded. This is because without login you can't view fullscreen image of posts with more than one image.
+If title of post cannot be found, a generic filename will be generated.
+
+Use on your own risk and feel free to contribute!
 
 
 
